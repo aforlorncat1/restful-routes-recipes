@@ -12,6 +12,7 @@ Use RESTful routes to create, show, edit, and delete items from the database. Yo
   - display a single recipe
   -  renders a form to edit a single recipe. This controller action should update the entry in the database with the changes, and then redirect to the recipe show page
   - displays all the recipes in the database
-- Create views with .erb for the index, show, and edit pages. Make sure your views correspond to the appropriate controller actions.
+- Create views with .erb for the index, show, new and edit pages. Make sure your views correspond to the appropriate controller actions.
+  - Your new and edit pages should have forms. Change the form method and input type to reflect the correct HTTP method.
 - Run 'rspec' and pass all the tests. 
 - Run 'shotgun config.ru' to start up the Sinatra webserver to see your app! You will be nagivating between views by typing the corresponding URL path in your browser, e.g. http://127.0.0.1:9393/recipes/new
