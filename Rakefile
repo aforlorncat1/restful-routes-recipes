@@ -5,7 +5,11 @@ require 'sinatra/activerecord/rake'
 require 'pry'
 
 # Type `rake -T` on your command line to see the available rake tasks.
-
+# desc 'Start IRB with application environment loaded'
 task :console do
-  Pry.start
+  exec "irb -r ./config/environment"
 end
+
+# task :console do
+#   Pry.start
+# end

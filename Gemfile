@@ -11,6 +11,8 @@ gem 'require_all'
 gem 'shotgun'
 gem 'json', '>=1.8.3'
 gem 'database_cleaner'
+gem 'activesupport'
+gem 'racksh'
 
 group :test do
   gem 'rspec'
